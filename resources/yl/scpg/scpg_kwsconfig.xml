@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+	<!-- k2系统同步webservice接口 -->
+	<service name="BPMWebservice" class="yl.scpg.k2.service.impl.K2ServiceImpl">
+	   
+	</service>
+	
+	<!-- CCS付款单接口 -->
+	<service name="PaymentWebService" class="yl.scpg.osb.PaymentServiceImpl">
+	   
+	</service>
+ 
+</root>

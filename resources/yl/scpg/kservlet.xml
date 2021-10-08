@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+	<servlet>
+		<servlet-name>KDEFSGetTokenServlet</servlet-name>
+		<servlet-class>yl.scpg.kdefs.service.servlet.KDEFSGetTokenAction</servlet-class>
+
+		<servlet-mapping>
+			<url-pattern>/auth/kdefsGetTokenServlet.do</url-pattern>
+		</servlet-mapping>
+	</servlet>
+
+	<servlet>
+		<servlet-name>KDEFSGetBillServlet</servlet-name>
+		<servlet-class>yl.scpg.kdefs.service.servlet.KDEFSGetBillAction</servlet-class>
+		
+		<servlet-mapping>
+			<url-pattern>/auth/kdefsGetBillServlet.do</url-pattern>
+		</servlet-mapping>
+	</servlet>
+
+	<servlet>
+		<servlet-name>KDEFSGetBillInvoiceServlet</servlet-name>
+		<servlet-class>yl.scpg.kdefs.service.servlet.KDEFSGetBillInvoiceAction</servlet-class>
+		
+		<servlet-mapping>
+			<url-pattern>/auth/kdefsGetBillInvoiceServlet.do</url-pattern>
+		</servlet-mapping>
+	</servlet>
+</web-app>

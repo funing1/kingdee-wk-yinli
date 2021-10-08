@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+	<package name="kdefs" class="yl.scpg.kdefs.service.KDEFSAction">
+		<action name="getToken" method="getToken" />
+	</package>
+
+</root>
